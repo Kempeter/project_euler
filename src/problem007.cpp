@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdint.h>
 #include <math.h>
+#include <algorithm>
 
 bool sqrt_num(uint64_t primes[], uint64_t num, int idx) {
 
