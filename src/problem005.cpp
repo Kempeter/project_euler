@@ -1,6 +1,9 @@
 #include <iostream>
 
+#include "Timer.h"
+
 int problem5() {
+    Timer timer;
     bool found = false;
     int start = 21;
 

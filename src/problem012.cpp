@@ -3,7 +3,10 @@
 #include <math.h>
 #include <vector>
 
+#include "Timer.h"
+
 uint64_t problem12() {
+    Timer timer;
     uint64_t triangle = 1;
     uint64_t num = 1;
     std::vector<uint64_t> divisors;

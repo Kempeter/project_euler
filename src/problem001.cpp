@@ -1,7 +1,10 @@
 #include <iostream>
 #include <vector>
 
+#include "Timer.h"
+
 int problem1() {
+        Timer timer;
 		std::vector<int> nums;
 		int sum = 0;
 		for (int i = 0; i < 1000; i++) {

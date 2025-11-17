@@ -3,6 +3,8 @@
 #include <math.h>
 #include <algorithm>
 
+#include "Timer.h"
+
 bool sqrt_num(uint64_t primes[], uint64_t num, int idx) {
 
     for (int i = 0; i < idx; i++) {
@@ -16,6 +18,7 @@ bool sqrt_num(uint64_t primes[], uint64_t num, int idx) {
 }
 
 uint64_t problem7() {
+    Timer timer;
     int found = 3;
     uint64_t num = 5;
     uint64_t primes[10001] = { 2, 3, 5 };

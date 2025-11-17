@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++26 -Wall -Wextra -O2
+CXXFLAGS = -std=c++26 -Wall -Wextra
 SRCDIR = src
 BINDIR = bin
 SOURCES = $(wildcard $(SRCDIR)/*.cpp)

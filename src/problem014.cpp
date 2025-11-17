@@ -3,7 +3,10 @@
 #include <iostream>
 #include <stdint.h>
 
+#include "Timer.h"
+
 uint64_t problem14() {
+    Timer timer;
     constexpr uint32_t LIMIT = 1000000;
     static uint32_t aSteps[LIMIT+ 1] = {0};
     uint64_t longest = 0;

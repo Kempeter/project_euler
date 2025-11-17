@@ -1,6 +1,9 @@
 #include <iostream>
 
+#include "Timer.h"
+
 int problem2() {
+    Timer timer;
     int sum = 0;
     int x = 1;
     int y = 1;

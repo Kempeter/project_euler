@@ -1,7 +1,10 @@
 #include <iostream>
 #include <stdint.h>
 
+#include "Timer.h"
+
 uint64_t problem3() {
+    Timer timer;
     uint64_t num = 600851475143;
     uint64_t divisor = 1;
 

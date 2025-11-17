@@ -1,7 +1,10 @@
 #include <iostream>
 #include <vector>
 
+#include "Timer.h"
+
 int problem4() {
+    Timer timer;
     //find palindromic
     int x = 999;
     int y = 999;

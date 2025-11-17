@@ -1,7 +1,10 @@
 #include <iostream>
 #include <math.h>
 
+#include "Timer.h"
+
 int problem6() {
+    Timer timer;
     int sum1 = 0;
     int sum2 = 0;
 

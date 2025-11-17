@@ -3,8 +3,10 @@
 #include <vector>
 #include <math.h>
 
-uint64_t eratosthenes(int limit) {
+#include "Timer.h"
 
+uint64_t eratosthenes(int limit) {
+    Timer timer;
     int crosslimit = sqrt(limit);
     std::vector<bool> sieve(limit);
 

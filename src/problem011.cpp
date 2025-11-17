@@ -1,8 +1,10 @@
 #include <iostream>
 #include <stdint.h>
 
+#include "Timer.h"
 
 uint64_t problem11() {
+    Timer timer;
     int nums[20][20] =
     {
         {8, 2, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78, 52, 12, 50, 77, 91, 8},

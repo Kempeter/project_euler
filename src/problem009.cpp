@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 
+#include "Timer.h"
+
 int gcd(int x, int y) {
 
     while (x != 0 && y != 0) {
@@ -21,6 +23,7 @@ int gcd(int x, int y) {
 }
 
 int problem9() {
+    Timer timer;
     int s = 1000;
     int s2 = s / 2;
     int mlimit = sqrt(s2) - 1;
