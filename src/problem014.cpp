@@ -1,6 +1,7 @@
 // https://stackoverflow.com/questions/2229107/what-is-the-fastest-way-to-find-if-a-number-is-even-or-odd
 
 #include <iostream>
+#include <stdint.h>
 
 uint64_t problem14() {
     constexpr uint32_t LIMIT = 1000000;
