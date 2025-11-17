@@ -5,7 +5,10 @@
 #include <stdint.h>
 #include <assert.h>
 
+#include "Timer.h"
+
 std::string problem13(std::array<std::array<uint8_t, 50>, 100>& data) {
+    Timer timer;
     std::array<uint8_t, 53> sum = {0};
 
     for (size_t row = 0; row < data.size(); ++row) {
