@@ -4,11 +4,12 @@
 #include "Timer.h"
 
 int problem16() {
+    Timer timer;
+    
     int sum = 0;
     int start = 2;
     std::vector<int> nums(1, start); 
     {
-        Timer timer;
         for (int i = 1; i < 1000; ++i) {
 
             int carry = 0;
